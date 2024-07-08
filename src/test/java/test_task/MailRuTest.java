@@ -10,12 +10,12 @@ import test_task.pages.SignInPage;
 import java.time.Duration;
 
 /*
-login — подставьте свою почту для логина
-addressee — подставьте почту своего адресата
+@param login — подставьте свою почту для логина
+@param addressee — подставьте почту своего адресата
  */
 public class MailRuTest {
-    private static final String login = "pechurkin_svyat@mail.ru";
-    private static final String addressee = "pechurkins@gmail.com";
+    private static final String login = "login";
+    private static final String addressee = "addressee";
     private static final String subject = "TestSubject";
     private static final String message = "TestMessage";
     private static SignInPage signInPage;
